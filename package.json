@@ -1,0 +1,30 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "This is a CRM ",
+  "main": "server.js",
+  "start": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjb4040/just-tech-news.git"
+  },
+  "keywords": [
+    "CRM"
+  ],
+  "author": "Mike Blackwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjb4040/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/mjb4040/just-tech-news#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.9.0"
+  }
+}
