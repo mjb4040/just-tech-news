@@ -25,7 +25,9 @@ Vote.init(
         model: 'post',
         key: 'id'
       }
+    }
   },
+  {
     sequelize,
     timestamps: false,
     freezeTableName: true,
